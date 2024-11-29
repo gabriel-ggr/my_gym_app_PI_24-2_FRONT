@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+# My Gym App PI 24-2
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este projeto foi desenvolvido como parte do curso de **Análise e Desenvolvimento de Sistemas** do **SENAC EAD**, na disciplina de **Projeto Integrador: Análise de Soluções Integradas para Organizações**.
 
-## Get started
+O **My Gym App** é um aplicativo focado em treinos de academia. Ele permite que alunos acessem seus treinos personalizados, criados por seus personal trainers, proporcionando uma experiência prática e organizada para alcançar seus objetivos de condicionamento físico.
 
-1. Install dependencies
+Este repositório é somente para a parte do FRONT-END
 
-   ```bash
-   npm install
-   ```
+O repositório para o BACK-END (API) é: https://github.com/gabriel-ggr/my_gym_app_pi_24-2_API
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🚀 Funcionalidades
+- Acesso personalizado aos treinos do aluno.
+- Conexão entre personal trainers e seus alunos.
+- Interface simples e fácil de usar.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📂 Estrutura do Projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+O projeto está dividido em duas partes principais:
+1. **Frontend** - Localizado na pasta `/front/my_gym_app`.
+2. **Backend** - Localizado na pasta `/api`.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 🛠️ Pré-requisitos
 
-```bash
-npm run reset-project
-```
+Certifique-se de que as seguintes ferramentas estejam instaladas no seu sistema:
+- Node.js (versão 14 ou superior)
+- Expo CLI (pode ser instalado com `npm install -g expo-cli`)
+- Aplicativo Expo Go (disponível na Play Store e App Store)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ⚙️ Como executar o projeto
 
-To learn more about developing your project with Expo, look at the following resources:
+1. **Iniciar o Frontend**:  
+   Abra um terminal, navegue até a pasta `/front/my_gym_app` e execute o comando para iniciar o Expo. O QR Code será exibido no terminal.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. **Iniciar o Backend**:  
+   Em outro terminal, navegue até a pasta `/api` e execute o servidor para iniciar o backend.
 
-## Join the community
+3. **Acessar o Aplicativo**:  
+   - Pelo navegador: Abra o endereço `http://localhost:8081`.  
+   - Pelo celular: Use o aplicativo Expo Go para escanear o QR Code exibido no terminal do frontend.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📖 Tecnologias Utilizadas
+- **Frontend**: React Native com Expo.
+- **Backend**: Node.js.
+- **Banco de Dados**: [Adicionar caso tenha um banco configurado, como MongoDB ou PostgreSQL].
+- **Frameworks e Bibliotecas**: [Adicionar frameworks específicos, como Gluestack, caso utilizados].
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para:
+- Reportar problemas (issues).
+- Sugerir melhorias.
+- Criar pull requests.
+
+---
+
+## 📜 Licença
+
+Este projeto está sob a licença [INSERIR LICENÇA, ex.: MIT]. Consulte o arquivo `LICENSE` para mais detalhes.
+
+---
+
+## 📧 Contato
+
+Se tiver dúvidas ou sugestões, entre em contato:
+- Nome: [Seu Nome ou Nome da Equipe]
+- Email: [Seu Email]
