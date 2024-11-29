@@ -51,28 +51,5 @@ Certifique-se de que as seguintes ferramentas estejam instaladas no seu sistema:
 ## 📖 Tecnologias Utilizadas
 - **Frontend**: React Native com Expo.
 - **Backend**: Node.js.
-- **Banco de Dados**: [Adicionar caso tenha um banco configurado, como MongoDB ou PostgreSQL].
-- **Frameworks e Bibliotecas**: [Adicionar frameworks específicos, como Gluestack, caso utilizados].
-
----
-
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-- Reportar problemas (issues).
-- Sugerir melhorias.
-- Criar pull requests.
-
----
-
-## 📜 Licença
-
-Este projeto está sob a licença [INSERIR LICENÇA, ex.: MIT]. Consulte o arquivo `LICENSE` para mais detalhes.
-
----
-
-## 📧 Contato
-
-Se tiver dúvidas ou sugestões, entre em contato:
-- Nome: [Seu Nome ou Nome da Equipe]
-- Email: [Seu Email]
+- **Banco de Dados**: MySQL.
+- **Frameworks e Bibliotecas**: Express, Prisma, Context API, Axios.
